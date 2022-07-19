@@ -1,4 +1,4 @@
- Readme
+                                                            Readme.md
 
 
  # ThreadPool
@@ -9,17 +9,19 @@
  
 Built on top of a waitable priority queue.
 
+_________________________________________________________________________________
 
-## Methods
 
-  # Submit
+# Methods
+
+  ### Submit
   Method to create the new task with its priority and push it to the queue. 
 
-  # SetNumOfThread
+  ### SetNumOfThread
   Method that used to control the number of active threads.
   
-  # Shutdown
+  ### Shutdown
   Terminate the thread pool and stop all the threads after completion of all the tasks in queue. 
   
-  # awaitTermination 
+  ### awaitTermination 
   Terminate the thread pool after the current task of each thread has completed.
